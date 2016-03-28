@@ -1,10 +1,10 @@
-source 'https://rubygems.org'
+source 'https://ruby.taobao.org'
 
 # https://github.com/mime-types/ruby-mime-types/issues/94
 # This can be removed once all gems depend on > 3.0
 gem 'mime-types', '~> 2.99', require: 'mime/types/columnar'
 
-gem 'rails', '~> 4.2.6'
+gem 'rails', '4.2.4'
 gem 'rails-i18n'
 
 gem 'autoprefixer-rails'
